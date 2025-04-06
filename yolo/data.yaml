@@ -1,0 +1,18 @@
+path: '/Users/wangzhenyu/Desktop/Project-AI/Opencv/Beverage Containers'
+
+train: train/images
+val: valid/images
+
+test: test/images
+
+names:
+  0: plastic_bottle
+  1: glass_bottle
+  2: aluminum_can
+  3: paper_cup
+  4: disposable_plastic_cup
+  5: tetra_pak
+  6: metal_bottle
+  7: reusable_bottle
+
+nc: 8
