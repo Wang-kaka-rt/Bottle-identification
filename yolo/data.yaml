@@ -6,11 +6,11 @@ val: valid/images
 test: test/images
 
 names:
-  0: plastic_bottle
-  1: glass_bottle
-  2: aluminum_can
-  3: paper_cup
-  4: disposable_plastic_cup
+  0: 塑料瓶
+  1: 玻璃瓶
+  2: 铝瓶
+  3: 纸杯
+  4: 一次性纸杯
   5: tetra_pak
   6: metal_bottle
   7: reusable_bottle

@@ -13,7 +13,8 @@ results = model.train(
     workers=2,
     optimizer='Adam',
     lr0=0.001,
-    name='beverage_containers_v1',
+    name='model',
+    project='models',
     fraction=0.074  # 4000 / 13689 (精确计算后的样本比例)
 )
 

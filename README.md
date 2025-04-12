@@ -1,6 +1,4 @@
-# Beverage Container Detection System
 
-![YOLOv8](https://img.shields.io/badge/YOLOv8-Real%20Time%20Detection-brightgreen)
 
 ## 项目概述 | Project Overview
 基于YOLOv8的实时饮料容器检测系统，支持塑料瓶、玻璃瓶、铝罐等8类常见饮料容器的实时识别。系统通过摄像头捕捉视频流，使用深度学习模型进行目标检测，并标注识别结果。
@@ -58,4 +56,11 @@ MIT License © 2024 [Your Name]
 ## 模型性能
 - mAP@0.5: 0.89
 - 推理速度：45 FPS (M1芯片)
+- 模型保存路径：models/model
+- 数据集样本限制：4000/13689 (2.92%)
+
+## 设备支持
+- MPS (Apple Silicon)
+- CPU
+- GPU (NVIDIA CUDA)
 ```

@@ -11,7 +11,7 @@ except Exception as e:
     exit()
 
 # 加载YOLOv8模型
-model = YOLO('last.pt')
+model = YOLO('best.pt')
 
 while True:
     # 读取摄像头帧
