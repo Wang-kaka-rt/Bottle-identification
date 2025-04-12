@@ -1,6 +1,17 @@
 ## Project Overview
 A real-time beverage container detection system using YOLOv8, supporting 8 common container types including plastic bottles, glass bottles, and aluminum cans. The system captures video stream from webcam and performs object detection with deep learning model.
 
+## Training Results
+
+### Performance Metrics
+![PR Curve](best_results/PR_curve.png)
+![Confusion Matrix](best_results/confusion_matrix.png)
+
+### Training Visualization
+![Training Batch](best_results/train_batch0.jpg)
+![Validation Batch](best_results/val_batch0_pred.jpg)
+
+
 ## Installation
 ```bash
 # Create Python virtual environment (Python 3.8+ recommended)
@@ -50,16 +61,6 @@ Contains 13,689 labeled images across 8 categories:
 - MPS (Apple Silicon)
 - CPU
 - GPU (NVIDIA CUDA)
-
-## Training Results
-
-### Performance Metrics
-![PR Curve](best_results/PR_curve.png)
-![Confusion Matrix](best_results/confusion_matrix.png)
-
-### Training Visualization
-![Training Batch](best_results/train_batch0.jpg)
-![Validation Batch](best_results/val_batch0_pred.jpg)
 
 ## License
 MIT License © 2024 [Your Name]
