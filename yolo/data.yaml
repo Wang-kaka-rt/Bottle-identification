@@ -1,18 +1,30 @@
-path: '/Users/wangzhenyu/Desktop/Project-AI/Opencv/Beverage Containers'
+path: 'D:/resource-ai/Bottle-identification/Beverage Containers'
 
 train: train/images
 val: valid/images
 
 test: test/images
 
-names:
-  0: 塑料瓶
-  1: 玻璃瓶
-  2: 铝瓶
-  3: 纸杯
-  4: 一次性纸杯
-  5: tetra_pak
-  6: metal_bottle
-  7: reusable_bottle
+# names:
+#   0: 玻璃瓶
+#   1: 塑料瓶
+#   2: 一次性杯子
+#   3: 带把的杯子
+#   4: 玻璃杯
+#   5: 普通玻璃杯
+#   6: 酒杯
+#   7: 普通水壶
+#   8: 锡罐
+# nc: 9
 
-nc: 8
+names:
+  0: bottle-glass
+  1: bottle-plastic
+  2: cup-disposable
+  3: cup-handle
+  4: glass-mug
+  5: glass-normal
+  6: glass-wine
+  7: gym bottle
+  8: tin can
+nc: 9
