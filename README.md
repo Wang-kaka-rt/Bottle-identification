@@ -4,7 +4,7 @@ A real-time beverage container detection system using YOLOv8, supporting 8 commo
 ## Training Results
 
 ### Performance Metrics
-![PR Curve](yolo\models\yolov8n/PR_curve.png)
+![PR Curve](yolo/models/yolov8n/PR_curve.png)
 ![Confusion Matrix](yolo\models\yolov8n\results.png"g)
 
 ### Training Visualization
