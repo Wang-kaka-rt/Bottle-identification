@@ -8,8 +8,8 @@ A real-time beverage container detection system using YOLOv8, supporting 8 commo
 ![Confusion Matrix](yolo\models\yolov8n\results.png"g)
 
 ### Training Visualization
-![Training Batch](byolo\models\yolov8n/train_batch0.jpg)
-![Validation Batch](byolo\models\yolov8n/val_batch0_pred.jpg)
+![Training Batch](yolo\models\yolov8n/train_batch0.jpg)
+![Validation Batch](yolo\models\yolov8n/val_batch0_pred.jpg)
 
 
 ## Installation
