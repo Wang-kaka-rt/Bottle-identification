@@ -1,6 +1,6 @@
 import torch
 from ultralytics import YOLO
-if __name__ == "__main__":
+if __name__ == "__main__":#windows，若mac应去掉，并注意缩进
 # 初始化YOLOv8模型
     model = YOLO('yolov8n.yaml').load('yolov8n.pt')  # 从官方配置构建并加载预训练权重
 
